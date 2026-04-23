@@ -69,9 +69,12 @@ class Program
 
         // Requirement 3
         // Console.WriteLine($"Your grade is {letter}.");
+
         // Challenge 1
         // Console.WriteLine($"Your grade is {letter}{plus}.");
-        // Challenge 2
+
+        // Challenge 2 "A" letter grade does not have a plus, only A and A-.
+        // Letter grades "B", "C", and "D" have plus and minus.
         if (letter == "A" && plus == "+")
         {
             Console.WriteLine($"Your grade is {letter}.");
@@ -88,6 +91,7 @@ class Program
         {
             Console.WriteLine($"Your grade is {letter}{plus}.");
         }
+        // Challenge 3 "F" letter grade does not have a plus or minus.
         else
         {
             Console.WriteLine($"Your grade is {letter}");

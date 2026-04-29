@@ -10,6 +10,7 @@ class Program
         Console.WriteLine("Enter your grade percentage:  ");
         string userInput = Console.ReadLine();
 
+
         // Convert string to a float.
         float percent = int.Parse(userInput);
 

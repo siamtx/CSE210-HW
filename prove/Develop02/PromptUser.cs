@@ -1,10 +1,11 @@
 class PromptUser
 {
-    public List<string> _prompts = new List<string>();
-    public void ShowPrompt()
+    public string _date;
+    public string _response;
+    public string _prompt;
+
+    public override string ToString()
     {
-        ;
+        return $"{_date} - {_prompt} - {_response}";
     }
-
-
 }
